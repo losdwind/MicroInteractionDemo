@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct popoo_ios_animationApp: App {
+struct PopooInterviewAnimationApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

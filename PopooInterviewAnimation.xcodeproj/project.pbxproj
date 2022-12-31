@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		290B6EF4295DCD9800802B59 /* popoo_ios_animationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6EF3295DCD9800802B59 /* popoo_ios_animationApp.swift */; };
+		290B6EF4295DCD9800802B59 /* PopooInterviewAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6EF3295DCD9800802B59 /* PopooInterviewAnimationApp.swift */; };
 		290B6EF6295DCD9800802B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6EF5295DCD9800802B59 /* ContentView.swift */; };
 		290B6EF8295DCD9800802B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290B6EF7295DCD9800802B59 /* Assets.xcassets */; };
 		290B6EFC295DCD9800802B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290B6EFB295DCD9800802B59 /* Preview Assets.xcassets */; };
+		290B6F03295DCDE700802B59 /* AppStoreAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6F02295DCDE700802B59 /* AppStoreAnimationView.swift */; };
+		290B6F06295DCE9B00802B59 /* HeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6F05295DCE9B00802B59 /* HeroCard.swift */; };
+		290B6F0A295DCEAA00802B59 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6F08295DCEAA00802B59 /* CustomCorner.swift */; };
+		290B6F0D295DD66100802B59 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6F0C295DD66100802B59 /* TabItem.swift */; };
+		290B6F11295DD6EE00802B59 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B6F10295DD6EE00802B59 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		290B6EF0295DCD9800802B59 /* popoo-ios-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popoo-ios-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		290B6EF3295DCD9800802B59 /* popoo_ios_animationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popoo_ios_animationApp.swift; sourceTree = "<group>"; };
+		290B6EF0295DCD9800802B59 /* PopooInterviewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopooInterviewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290B6EF3295DCD9800802B59 /* PopooInterviewAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopooInterviewAnimationApp.swift; sourceTree = "<group>"; };
 		290B6EF5295DCD9800802B59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		290B6EF7295DCD9800802B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		290B6EF9295DCD9800802B59 /* popoo_ios_animation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = popoo_ios_animation.entitlements; sourceTree = "<group>"; };
+		290B6EF9295DCD9800802B59 /* PopooInterviewAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopooInterviewAnimation.entitlements; sourceTree = "<group>"; };
 		290B6EFB295DCD9800802B59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		290B6F02295DCDE700802B59 /* AppStoreAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAnimationView.swift; sourceTree = "<group>"; };
+		290B6F05295DCE9B00802B59 /* HeroCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
+		290B6F08295DCEAA00802B59 /* CustomCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		290B6F0C295DD66100802B59 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		290B6F10295DD6EE00802B59 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +46,7 @@
 		290B6EE7295DCD9800802B59 = {
 			isa = PBXGroup;
 			children = (
-				290B6EF2295DCD9800802B59 /* popoo-ios-animation */,
+				290B6EF2295DCD9800802B59 /* PopooInterviewAnimation */,
 				290B6EF1295DCD9800802B59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +54,23 @@
 		290B6EF1295DCD9800802B59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				290B6EF0295DCD9800802B59 /* popoo-ios-animation.app */,
+				290B6EF0295DCD9800802B59 /* PopooInterviewAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		290B6EF2295DCD9800802B59 /* popoo-ios-animation */ = {
+		290B6EF2295DCD9800802B59 /* PopooInterviewAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				290B6EF3295DCD9800802B59 /* popoo_ios_animationApp.swift */,
+				290B6EF3295DCD9800802B59 /* PopooInterviewAnimationApp.swift */,
 				290B6EF5295DCD9800802B59 /* ContentView.swift */,
+				290B6F0B295DD5FB00802B59 /* AnimationTabBar */,
+				290B6F04295DCE8000802B59 /* AnimationAppStore */,
 				290B6EF7295DCD9800802B59 /* Assets.xcassets */,
-				290B6EF9295DCD9800802B59 /* popoo_ios_animation.entitlements */,
+				290B6EF9295DCD9800802B59 /* PopooInterviewAnimation.entitlements */,
 				290B6EFA295DCD9800802B59 /* Preview Content */,
 			);
-			path = "popoo-ios-animation";
+			path = PopooInterviewAnimation;
 			sourceTree = "<group>";
 		};
 		290B6EFA295DCD9800802B59 /* Preview Content */ = {
@@ -69,12 +81,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		290B6F04295DCE8000802B59 /* AnimationAppStore */ = {
+			isa = PBXGroup;
+			children = (
+				290B6F08295DCEAA00802B59 /* CustomCorner.swift */,
+				290B6F05295DCE9B00802B59 /* HeroCard.swift */,
+				290B6F02295DCDE700802B59 /* AppStoreAnimationView.swift */,
+			);
+			path = AnimationAppStore;
+			sourceTree = "<group>";
+		};
+		290B6F0B295DD5FB00802B59 /* AnimationTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				290B6F0C295DD66100802B59 /* TabItem.swift */,
+				290B6F10295DD6EE00802B59 /* TabBarView.swift */,
+			);
+			path = AnimationTabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		290B6EEF295DCD9800802B59 /* popoo-ios-animation */ = {
+		290B6EEF295DCD9800802B59 /* PopooInterviewAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 290B6EFF295DCD9800802B59 /* Build configuration list for PBXNativeTarget "popoo-ios-animation" */;
+			buildConfigurationList = 290B6EFF295DCD9800802B59 /* Build configuration list for PBXNativeTarget "PopooInterviewAnimation" */;
 			buildPhases = (
 				290B6EEC295DCD9800802B59 /* Sources */,
 				290B6EED295DCD9800802B59 /* Frameworks */,
@@ -84,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "popoo-ios-animation";
+			name = PopooInterviewAnimation;
 			productName = "popoo-ios-animation";
-			productReference = 290B6EF0295DCD9800802B59 /* popoo-ios-animation.app */;
+			productReference = 290B6EF0295DCD9800802B59 /* PopooInterviewAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 290B6EEB295DCD9800802B59 /* Build configuration list for PBXProject "popoo-ios-animation" */;
+			buildConfigurationList = 290B6EEB295DCD9800802B59 /* Build configuration list for PBXProject "PopooInterviewAnimation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				290B6EEF295DCD9800802B59 /* popoo-ios-animation */,
+				290B6EEF295DCD9800802B59 /* PopooInterviewAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				290B6EF6295DCD9800802B59 /* ContentView.swift in Sources */,
-				290B6EF4295DCD9800802B59 /* popoo_ios_animationApp.swift in Sources */,
+				290B6EF4295DCD9800802B59 /* PopooInterviewAnimationApp.swift in Sources */,
+				290B6F11295DD6EE00802B59 /* TabBarView.swift in Sources */,
+				290B6F0D295DD66100802B59 /* TabItem.swift in Sources */,
+				290B6F0A295DCEAA00802B59 /* CustomCorner.swift in Sources */,
+				290B6F03295DCDE700802B59 /* AppStoreAnimationView.swift in Sources */,
+				290B6F06295DCE9B00802B59 /* HeroCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +233,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +287,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -261,10 +301,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "popoo-ios-animation/popoo_ios_animation.entitlements";
+				CODE_SIGN_ENTITLEMENTS = PopooInterviewAnimation/PopooInterviewAnimation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"popoo-ios-animation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PopooInterviewAnimation/Preview Content\"";
 				DEVELOPMENT_TEAM = KTF37Z8L24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -284,7 +324,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.figurich.popoo-ios-animation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figurich.PopooInterviewAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -299,10 +339,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "popoo-ios-animation/popoo_ios_animation.entitlements";
+				CODE_SIGN_ENTITLEMENTS = PopooInterviewAnimation/PopooInterviewAnimation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"popoo-ios-animation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PopooInterviewAnimation/Preview Content\"";
 				DEVELOPMENT_TEAM = KTF37Z8L24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -322,7 +362,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.figurich.popoo-ios-animation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figurich.PopooInterviewAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -335,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		290B6EEB295DCD9800802B59 /* Build configuration list for PBXProject "popoo-ios-animation" */ = {
+		290B6EEB295DCD9800802B59 /* Build configuration list for PBXProject "PopooInterviewAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				290B6EFD295DCD9800802B59 /* Debug */,
@@ -344,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		290B6EFF295DCD9800802B59 /* Build configuration list for PBXNativeTarget "popoo-ios-animation" */ = {
+		290B6EFF295DCD9800802B59 /* Build configuration list for PBXNativeTarget "PopooInterviewAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				290B6F00295DCD9800802B59 /* Debug */,

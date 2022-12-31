@@ -7,15 +7,23 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    var body: some View{
+
+        TabView {
+            AppStoreAnimationView()
+                .tabItem {
+                    Text("Task 1")
+                }
+            TabBarView()
+                .tabItem {
+                    Text("Task 2")
+                }
         }
-        .padding()
+
+
     }
 }
 
